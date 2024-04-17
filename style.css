@@ -1,0 +1,20 @@
+@font-face {
+    font-family: NetflixSans-Bold;
+    src: url(./Fuentes/NetflixSans-Bold.otf);
+}
+
+@font-face {
+    font-family: NetflixSans-Light;
+    src: url(./Fuentes/NetflixSans-Light.otf);
+}
+
+@font-face {
+    font-family: NetflixSans-Medium;
+    src: url(./Fuentes/NetflixSans-Medium.otf);
+}
+
+@font-face {
+    font-family: NetflixSans-Regular;
+    src: url(./Fuentes/NetflixSans-Regular.otf);
+}
+
