@@ -21,6 +21,11 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px 0px 0px 0px;
+    background-color: #000000;
+}
+
+.main {
     background-image: url(./Imagenes/bg.jpg);
     background-size: cover;
     background-position: center;
@@ -30,7 +35,7 @@ body {
 
 header {
     display: flex;
-    margin: 15px 150px;
+    margin: 20px 155px;
     align-items: center;
     justify-content: space-between;
 }
