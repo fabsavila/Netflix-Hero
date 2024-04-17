@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="nav">
-        
+    <header>
+        <img id="logo" src="./Imagenes/netflix-logo-png-2562.png" alt="Netflix">
+        <div class="botones">
+            <select name="lang" id="langselect">
+                <option value="es" label="Español">Español</option>
+                <option value="eng" label="English">English</option>
+            </select>
+            <button class="login">Iniciar sesión</button>
+        </div>
+    </header>
+    <section class="hero">
+        <h1>Películas y series ilimitadas y mucho más</h1>
+        <p>Disfruta donde quieras. Cancela cuando quieras.</p>
+        <h3>¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</h3>
+        <form action="">
+            <input type="email" name="email" id="email" placeholder="Email">
+            <input type="submit" id="comenzar" value="Comenzar">
+        </form>
     </section>
+    <div class="overlay"></div>
 </body>
 </html>
